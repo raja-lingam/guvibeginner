@@ -13,7 +13,8 @@ public class Listeven {
                 for(int i=1; i <= l; i++){
                        
                         //if the number is not divisible by 2 then it is odd
-                        if( i % 2 != 0){
+                        if( (i % 2) == 0)
+                        {
                                 System.out.print(i + " ");
                         }
                 }
