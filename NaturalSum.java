@@ -1,17 +1,17 @@
-public class Natural 
+public class NaturalSum 
 {
     public static void main(String args[])
     {
-        int x, i = 1 ;
+        int a, b= 1 ;
         int sum = 0;
         System.out.println("Enter Number of items :");
         Scanner s = new Scanner(System.in);
-        x = s.nextInt();
-        while(i <= x)
+        a = s.nextInt();
+        while(b <= a)
         {
             sum = sum +i;
-            i++;
+            b++;
         }
-        System.out.println("Sum of "+x+" numbers is :"+sum);
+        System.out.println("Sum of "+a+" numbers is :"+sum);
     } 
 }
